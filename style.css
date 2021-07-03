@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+    font-size: 1.3em;
+    line-height: 1.5em;
+  }
+  
+  h1 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 1.8em;
+    font-weight: 350;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    
+    
+  }
+  
+  .container {
+    max-width: 410px;
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 0.719);
+    padding: 20px;
+    padding-right: 15px;
+    border-radius: 10px;
+  }
+  
+  .calculadora {
+    width: 400px;
+  }
+  
+  .display {
+    font-size: 1.3em;
+    width: 390px;
+    height: 50px;
+    text-align: right;
+    background: #6090a7;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .btn {
+    width: 96px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    background: #1d28ca;
+    font-size: 1.3em;
+    cursor: pointer;
+    font-weight: 300;
+  }
+  
+  .btn:hover {
+    font-weight: 550;
+    background: #ffffff;
+  }
+  
